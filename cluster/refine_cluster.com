@@ -7,7 +7,7 @@
 
 set queue=himem.q
 
-cp mparameters mparameters_run
+cp mparameters_clust mparameters_run
 
 set start = `grep start_process mparameters_run | awk '{print $2}'`
 set end   = `grep end_process mparameters_run | awk '{print $2}'`
